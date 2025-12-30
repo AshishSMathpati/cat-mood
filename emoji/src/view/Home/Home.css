@@ -1,0 +1,84 @@
+.heading {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.header-highlight {
+    color: #F0F0F0;
+}
+
+.p-highlight {
+    color: #398fff;
+
+}
+
+body {
+    background-color: #C5D89D;
+}
+
+.description {
+    font-size: 27px;
+    text-align: center;
+    padding: 0px 90px;
+    color: #666666;
+}
+
+.emoji-container {
+
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #666666;
+    background-color: #F6F0D7;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.emoji-picker {
+    width: fit-content;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #89986D;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.emoji-btn {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #89986D;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+}
+
+.color-picker{
+        width: fit-content;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #666666;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    right: 0;
+
+}

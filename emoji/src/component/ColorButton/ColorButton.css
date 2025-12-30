@@ -1,0 +1,9 @@
+.color-btn {
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
