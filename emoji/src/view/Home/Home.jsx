@@ -22,7 +22,8 @@ function Home() {
                 </p>
 
                 <div className="emoji-container" style={{
-                    fontSize: `${sliderValue * 1.1}px`
+                    fontSize: `${sliderValue * 1.1}px`,
+                    backgroundColor : bgColor
                 }}>{emoji} </div>
                 <h1>{mood}</h1>
 
@@ -54,6 +55,7 @@ function Home() {
                     <ColorButton bgColor={"#ff58ecff"} setBgColor={setBgColor} />
                     <ColorButton bgColor={"#99ffdfff"} setBgColor={setBgColor} />
                     <ColorButton bgColor={"#ff3434ff"} setBgColor={setBgColor} />
+                    <ColorButton bgColor={"#859b56ff"} setBgColor={setBgColor} />
                 </div>
             </div>
         </>
